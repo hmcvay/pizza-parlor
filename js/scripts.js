@@ -1,10 +1,16 @@
 // BUSINESS LOGIC
 
-//write cart object constructor
+//write cart constructor
 function Cart() {
   this.pizzasOrdered = {};
+  this.assignId = 0;
 }
 
+//write prototype method for adding pizzas to cart
+Cart.prototype.addPizzas = function(pizza) {
+  pizza.id = this.assignId();
+  this.pizzasOrdered[pizza.id] = pizza;
+};
 
 // write pizza object constructor
 function Pizza(toppings, size) {
