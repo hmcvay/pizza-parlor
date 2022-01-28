@@ -89,3 +89,21 @@
   right: 50px;
   top: 520px;
 }
+
+.deliveryForm {
+  background-color: black;
+  color: white;
+  font-family: "Josefin sans";
+  border: rgb(32, 153, 32) solid 3px;
+  padding: 2%;
+  float: center;
+  position: absolute;
+  top: 40%;
+  left: 27%;
+}
+
+#name {
+  border: none;
+  background-color: black;
+  color: #fcd285;
+}
