@@ -3,7 +3,6 @@
 //write cart object constructor
 function Cart() {
   this.pizzasOrdered = {};
-  this.currentId = 0;
 }
 
 
