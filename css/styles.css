@@ -4,8 +4,17 @@
   margin-bottom: 50px;
   margin-left: 25px;
   margin-right: 25px;
-  padding-right: 25px;
+  padding-right: 50px;
   padding-left: 25px;
+}
+
+#pizzaSlice {
+  position: relative;
+  top: 30px;
+  left: 50px;
+  float: left;
+  width: auto;
+  height: 200px;
 }
 
 h1 {
