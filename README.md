@@ -55,6 +55,15 @@ _Live site: <https://hmcvay.github.io/pizza-parlor>_
 <br>
 
 ## Tests
+
+### Describe: Cart()
+
+Test: "It should return a Cart object that holds all the ordered Pizza objects and their id"
+<br>Code:
+<br>**const myCart = new Cart {"pizza1", 1};**
+<br>Expected Output: myCart (orderedPizzas: "pizza1", id: "1")
+
+<br>
 ### Describe: Pizza()
 
 Test: "It should return a Pizza object with two properties for toppings and size."
