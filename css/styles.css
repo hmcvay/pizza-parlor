@@ -1,27 +1,40 @@
 #pizzaNetHeader {
+  background-image: linear-gradient(rgb(223, 29, 29), #fcd285);
   text-align: right;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  margin-left: 25px;
-  margin-right: 25px;
+  margin: 25px;
   padding-right: 50px;
   padding-left: 25px;
+  border: black solid 3px;
 }
 
 #pizzaSlice {
   position: relative;
   top: 30px;
-  left: 50px;
+  left: 40px;
   float: left;
   width: auto;
-  height: 200px;
+  height: 230px;
 }
 
-h1 {
-  font-family: "Ribeye"; 
-  font-size: 135pt;
+.tm {
+  font-family:'Times New Roman', Times, serif;
+  font-size: 75pt;
+  color: black;
 }
-h2 {
+
+.netHead {
+  font-family: "Ribeye";
+  color: white; 
+  font-size: 125pt;
+}
+.netHeadSub {
   font-family: "Josefin Sans";
-  font-size: 38pt;
+  color: rgb(223,29,29);
+  font-size: 40pt;
+}
+
+#addressBox {
+  border: rgb(32, 153, 32) solid 6px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
