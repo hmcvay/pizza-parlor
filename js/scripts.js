@@ -30,23 +30,24 @@ console.log(myCart);
 function Pizza(toppings, size) {
   this.toppings = toppings
   this.size = size
-  this.basePrice = 7
-  //this.price = 0
+  //this.basePrice = 7
+  this.price = 0
 }
 
 // write prototype method for increasing price based on size
 
 Pizza.prototype.addSize = function () {
-  let startPrice = this.basePrice
+  let basePrice = 7
   if (this.size === "family") {
-    startPrice += 9
+    basePrice += 9
   } else if (this.size === "large") {
-    startPrice += 6
+    basePrice += 6
   } else if (this.size === "medium") {
-    startPrice += 3
+    basePrice += 3
   } else {
-    this.price = 7
+    basePrice;
   }
+  return basePrice = this.price;
 };
 let pizza1 = new Pizza ("pineapple", "family");
 console.log(pizza1);
