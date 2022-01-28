@@ -70,6 +70,13 @@ Test: "It should add Pizza object to Cart constructor."
 <br>**const myCart = new Cart ("pizza1")
 <br>Expected Output: myCart(orderedPizzas: "pizza1")
 
+<br>
+
+Test: "It should assign id to Pizza objects in Cart constructor."
+<br>Code:
+<br>**const myCart = new Cart ("pizza1")
+<br>Expected Output: myCart(orderedPizzas: "pizza1", 1)
+
 ### Describe: Pizza()
 
 Test: "It should return a Pizza object with two properties for toppings and size."
