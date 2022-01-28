@@ -9,6 +9,21 @@ function Pizza(toppings, size) {
 
 // write prototype method for increasing based on size
 
+Pizza.prototype.addSize = function () {
+  if (this.size = "family") {
+    return this.basePrice =+ 9 
+  // } else if (this.size = "large") {
+  //   return this.basePrice += 6
+  // } else if (this.size = "medium") {
+  //   return this.basePrice += 3
+  // } else {
+  //   return this.basePrice
+  // }
+  }
+};
+let pizza1 = new Pizza ("pineapple", "family");
+console.log(pizza1);
+
 
 
 
