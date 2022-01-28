@@ -1,5 +1,12 @@
 // BUSINESS LOGIC
 
+//write cart object constructor
+function Cart() {
+  this.pizzasOrdered = {};
+  this.currentId = 0;
+}
+
+
 // write pizza object constructor
 function Pizza(toppings, size) {
   this.toppings = toppings
