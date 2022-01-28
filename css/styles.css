@@ -34,7 +34,38 @@
 }
 
 #addressBox {
+  background-image: linear-gradient(rgb(223, 29, 29), rgb(223, 29, 29));
   border: rgb(32, 153, 32) solid 6px;
   margin-left: 50px;
   margin-right: 50px;
+  margin-bottom: 50px;
+}
+
+.pleaseEnter {
+  height: 650px;
+  color: white;
+  font-size: 50pt;
+  text-align: center;
+  font-family: "Ribeye";
+}
+
+#pizzaSliceDown1 {
+  float: left;
+  position:absolute;
+  left: 50px;
+  top: 0px;
+}
+
+#pizzaSliceDown2 {
+  float: left;
+  position: absolute;
+  left: 50px;
+  top: 250px;
+}
+
+#pizzaSliceDown3 {
+  float: left;
+  position: absolute;
+  left: 50px;
+  top: 500px;
 }
