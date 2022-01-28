@@ -2,7 +2,7 @@
 
 ***
 
-### A simple webpage designed to take a number from the user and return a range of numbers, from 0 to the user inputted number, with specific substitutions.
+### A simple webpage designed for a pizza company, "Pizza.net", where a user can choose one or more individual toppings, and a size, to order a pizza and see the final cost.
 
 <br>
 
@@ -15,12 +15,9 @@
 
 ## Description
 
-_This webpage contains a form to gather a number from the user. The webpage will then display results based on the following criteria:_
-- _Numbers that contain a 1: all digits are replaced (all digits) with **"Beep!"**_
-- _Numbers that contain a 2: all digits are replaced (all digits) with **"Boop!"**_ 
-- _Numbers that contain a 3: all digits are replaced (all digits) with **"Won't you be my neighbor?"**_
+_This webpage contains SELECT BOXES(????) in two categories - toppings, and size - with multiple options per category for the user to choose from. After the user makes their choices there will be a submit button to display total price._
 
-_Live site: <https://hmcvay.github.io/code-review-3>_
+_Live site: <https://hmcvay.github.io/pizza-parlor>_
 
 <br>
 
@@ -33,7 +30,7 @@ _Live site: <https://hmcvay.github.io/code-review-3>_
 - _Connect to wifi (or hard-wire connection)_
 - _Install git via the computer terminal_
 - _Use the "cd desktop" command to navigate to the desktop_
-- _Go to [this](https://github.com/hmcvay) GitHub account, and select the "code-review-3" repository_
+- _Go to [this](https://github.com/hmcvay) GitHub account, and select the "pizza-parlor" repository_
 - _Once you have selected the repository, copy the URL_
 - _Use the terminal to paste the URL by entering: "git clone 'PASTE URL HERE'" (do not include the " ")_
 - _You may now enter the file saved to your desktop, and open the index.html file_
