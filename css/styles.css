@@ -1,9 +1,9 @@
 #pizzaNetHeader {
   background-image: linear-gradient(rgb(223, 29, 29), #fcd285);
   text-align: right;
-  margin: 25px;
-  padding-right: 50px;
-  padding-left: 25px;
+  margin: 2%;
+  padding-right: 4%;
+  padding-left: 4%;
   border: black solid 3px;
 }
 
