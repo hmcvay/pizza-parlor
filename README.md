@@ -55,13 +55,12 @@ _Live site: <https://hmcvay.github.io/pizza-parlor>_
 <br>
 
 ## Tests
-### Describe: beepBoop()
+### Describe: Pizza()
 
-Test: "It should return false if user inputs a non-number."
+Test: "It should return a Pizza object with two properties for toppings and size."
 <br>Code:
-<br>**const num = "123abc";**
-<br>**beepBoop(num);**
-<br>Expected Output: false
+<br>**const pizza1 = new Pizza {["pineapple", "pepperoni"], "large"};**
+<br>Expected Output: Pizza { toppings: ["pineapple", "pepperoni"], size: "large" }
 
 <br>
 
