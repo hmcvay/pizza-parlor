@@ -59,16 +59,15 @@ _Live site: <https://hmcvay.github.io/pizza-parlor>_
 
 Test: "It should return a Pizza object with two properties for toppings and size."
 <br>Code:
-<br>**const pizza1 = new Pizza {["pineapple", "pepperoni"], "large"};**
-<br>Expected Output: Pizza { toppings: ["pineapple", "pepperoni"], size: "large" }
+<br>**const pizza1 = new Pizza (["pineapple", "pepperoni"], "large");**
+<br>Expected Output: Pizza (toppings: ["pineapple", "pepperoni"], size: "large")
 
 <br>
 
-Test: "It should return false if user inputs negative number."
+Test: "Base price should increase by 3 if Medium is selected."
 <br>Code:
-<br>**const num = "-5";**
-<br>**beepBoop(num);**
-<br>Expected Output: false
+<br>**const pizza1 = new Pizza ("pineapple", "medium");**
+<br>Expected Output: 10
 
 <br>
 
