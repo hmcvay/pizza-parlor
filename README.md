@@ -17,7 +17,7 @@
 
 _This webpage contains SELECT BOXES(????) in two categories - toppings, and size - with multiple options per category for the user to choose from. After the user makes their choices there will be a submit button to display total price._
 
-_Live site: <https://hmcvay.github.io/pizza-parlor>_
+_Live site [here](https://hmcvay.github.io/pizza-parlor)
 
 <br>
 
@@ -90,38 +90,6 @@ Test: "Base price should increase by 3 if Medium is selected."
 <br>Code:
 <br>**const pizza1 = new Pizza ("pineapple", "medium");**
 <br>Expected Output: 10
-
-<br>
-
-Test: "It should return string array of range of values within inputted number."
-<br>Code:
-<br>**const num = "5";**
-<br>**beepBoop(num);**
-<br>Expected Output: "[0, 1, 2, 3, 4, 5]"
-
-<br>
-
-Test: "If the string array of values includes 3, push 'Won't you be my neighbor' instead of '3'."
-<br>Code:
-<br>**const num = "5";**
-<br>**beepBoop(num);**
-<br>Expected Output: "[0, 1, 2, "Won't you be my neighbor?", 4, 5]"
-
-<br>
-
-Test: "If the string array of values includes 2, push 'boop' instead of '2'."
-<br>Code:
-<br>**const num = "5";**
-<br>**beepBoop(num);**
-<br>Expected Output: "[0, 1, "boop", 3, 4, 5]"
-
-<br>
-
-Test: "If the string array of values includes 1, push 'beep' instead of '1'."
-<br>Code:
-<br>**const num = "5";**
-<br>**beepBoop(num);**
-<br>Expected Output: "[0, "beep", 2, 3, 4, 5]"
 
 <br>
 
