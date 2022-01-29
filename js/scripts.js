@@ -55,6 +55,13 @@ console.log(pizza1);
 
 
 
+// USER INTERFACE LOGIC
+
+
+
+
+
+
 
 
 
@@ -64,3 +71,11 @@ console.log(pizza1);
 
 
 // USER INTERFACE LOGIC
+$(document).ready(function() {
+  $("button#done").click(function() {
+    $("#addressBox").hide();
+    $("#orderPizza").show();
+  });
+});
+
+//const userName = $("input#name").val();
