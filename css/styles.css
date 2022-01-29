@@ -34,6 +34,7 @@
 }
 
 #addressBox {
+  float: center;
   background-image: linear-gradient(rgb(223, 29, 29), rgb(223, 29, 29));
   border: rgb(32, 153, 32) solid 6px;
   margin-left: 50px;
@@ -91,8 +92,10 @@
 }
 
 .deliveryForm {
+  width: 50%;
   background-color: black;
   color: white;
+  font-size: 16pt;
   font-family: "Josefin sans";
   border: rgb(32, 153, 32) solid 3px;
   padding: 2%;
@@ -103,7 +106,67 @@
 }
 
 #name {
+  text-align: center;
   border: none;
   background-color: black;
+  font-family: monospace;
+  font-size: 22pt;
   color: #fcd285;
+  height: auto;
+  width: 60%;
+}
+
+#address {
+  text-align: center;
+  border: none;
+  background-color: black;
+  font-family: monospace;
+  font-size: 22pt;
+  color: #fcd285;
+  height: auto;
+  width: 80%;
+}
+
+#city {
+  text-align: center;
+  border: none;
+  background-color: black;
+  font-family: monospace;
+  font-size: 22pt;
+  color: #fcd285;
+  height: auto;
+  width: 30%;
+}
+
+#state {
+  text-align: center;
+  border: none;
+  background-color: black;
+  font-family: monospace;
+  font-size: 22pt;
+  color: #fcd285;
+  height: auto;
+  width: 10%;
+}
+
+#zip {
+  text-align: center;
+  border: none;
+  background-color: black;
+  font-family: monospace;
+  font-size: 22pt;
+  color: #fcd285;
+  height: auto;
+  width: 25%;
+}
+
+#phone {
+  text-align: center;
+  border: none;
+  background-color: black;
+  font-family: monospace;
+  font-size: 22pt;
+  color: #fcd285;
+  height: auto;
+  width: 55%;
 }
