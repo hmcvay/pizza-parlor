@@ -1,3 +1,9 @@
+$document.ready(function(){
+  $(".test").submit(function(){
+    $("#test").show();
+  });
+});
+
 // BUSINESS LOGIC
 
 //write cart constructor
@@ -52,30 +58,9 @@ Pizza.prototype.addSize = function () {
 let pizza1 = new Pizza ("pineapple", "family");
 console.log(pizza1);
 
-
-
-
-// USER INTERFACE LOGIC
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// USER INTERFACE LOGIC
-$(document).ready(function() {
-  $("button#done").click(function() {
-    $("#addressBox").hide();
-    $("#orderPizza").show();
-  });
-});
-
-//const userName = $("input#name").val();
+//UI
+// $(document).ready(function () {
+// 	$('button#test').click(function () {
+//     $('#test').show();
+//   });
+// });
