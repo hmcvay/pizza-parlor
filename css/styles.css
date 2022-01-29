@@ -37,13 +37,14 @@
   float: center;
   background-image: linear-gradient(rgb(223, 29, 29), rgb(223, 29, 29));
   border: rgb(32, 153, 32) solid 6px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 12%;
+  margin-right: 12%;
   margin-bottom: 50px;
+  height: 600px;
+  width: 75%;
 }
 
 .pleaseEnter {
-  height: 750px;
   color: white;
   font-size: 50pt;
   text-align: center;
@@ -53,45 +54,60 @@
 #pizzaSliceDown1 {
   float: left;
   position:absolute;
-  left: 50px;
+  left: 3%;
   top: 0px;
+  height: 200px;
+  width: auto;
 }
 
 #pizzaSliceDown2 {
   float: left;
   position: absolute;
-  left: 50px;
-  top: 250px;
+  left: 3%;
+  top: 30%;
+  height: 200px;
+  width: auto;
 }
 
 #pizzaSliceDown3 {
   float: left;
   position: absolute;
-  left: 50px;
-  top: 500px;
+  left: 3%;
+  top: 60%;
+  height: 200px;
+  width: auto;
 }
+
 #pizzaSliceUp1 {
   float: left;
   position:absolute;
-  right: 50px;
-  top: 20px;
+  right: 3%;
+  top: 0px;
+  height: 200px;
+  width: auto;
 }
 
 #pizzaSliceUp2 {
   float: left;
   position: absolute;
-  right: 50px;
-  top: 270px;
+  right: 3%;
+  top: 30%;
+  height: 200px;
+  width: auto;
 }
 
 #pizzaSliceUp3 {
   float: left;
   position: absolute;
-  right: 50px;
-  top: 520px;
+  right: 3%;
+  top: 60%;
+  height: 200px;
+  width: auto;
 }
 
 .deliveryForm {
+  margin-top: 25px;
+  margin-bottom: 25px;
   width: 50%;
   background-color: black;
   color: white;
@@ -101,7 +117,7 @@
   padding: 2%;
   float: center;
   position: absolute;
-  top: 40%;
+  top: 30%;
   left: 27%;
 }
 
@@ -169,4 +185,18 @@
   color: #fcd285;
   height: auto;
   width: 55%;
+} 
+
+.pickupDelivery {
+  font-size: 20pt;
+  font-family: "Josefin sans";
+  position: absolute;
+  float: center;
+  top: 80%;
+  left: 40%;
+}
+
+#orderPizza {
+  display: none;
+  float: center;
 }
