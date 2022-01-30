@@ -1,8 +1,6 @@
 $(document).ready(function () {
-  $(".test").submit(function (event) {
-    event.preventDefault();
-    $("#test").show();
-    $()
+  $("button#test").click(function () {
+    $(".test").show();
   });
 });
 

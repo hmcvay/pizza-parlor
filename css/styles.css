@@ -201,7 +201,7 @@
   float: center;
 }
 
-#test {
-float: center;
-display: none;
+.test {
+  display: none;
+  margin: 100px;
 }
