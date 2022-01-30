@@ -1,5 +1,7 @@
 $(document).ready(function () {
-  $("button#test").click(function () {
+  $("button#test").click(function (event) {
+    event.preventDefault();
+    $("#addressBox").hide();
     $(".test").show();
   });
 });
@@ -54,9 +56,9 @@ Pizza.prototype.addSize = function () {
     basePrice;
   }
   return basePrice = this.price;
+ 
 };
-let pizza1 = new Pizza ("pineapple", "family");
-console.log(pizza1);
+
 
 //UI
 // $(document).ready(function () {

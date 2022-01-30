@@ -1,3 +1,7 @@
+.test {
+  display: none;
+}
+
 #pizzaNetHeader {
   background-image: linear-gradient(rgb(223, 29, 29), #fcd285);
   text-align: right;
@@ -27,6 +31,7 @@
   color: white; 
   font-size: 125pt;
 }
+
 .netHeadSub {
   font-family: "Josefin Sans";
   color: rgb(223,29,29);
@@ -185,7 +190,7 @@
   color: #fcd285;
   height: auto;
   width: 55%;
-} 
+}
 
 .pickupDelivery {
   font-size: 20pt;
@@ -194,14 +199,4 @@
   float: center;
   top: 80%;
   left: 40%;
-}
-
-#orderPizza {
-  display: none;
-  float: center;
-}
-
-.test {
-  display: none;
-  margin: 100px;
 }
