@@ -329,3 +329,140 @@ input#deep {
   height: 40px;
   width: 40px;
 }
+
+#toppings {
+  margin-top: 2%;
+  margin-left: 8%;
+  width: 50%;
+  position: absolute;
+  top: 40.5%;
+  left: 35%;
+  background-color: rgb(49, 49, 235);
+  font-family: "Josefin sans";
+  color: white;
+  font-size: 28pt;
+}
+
+#topping-menu {
+  text-align: center;
+  font-family: "Ribeye";
+  color: rgb(136, 216, 16);
+  font-size: 40pt;
+  margin-bottom: 3%;
+}
+
+label.topping-left {
+  position: relative;
+  left: 20%;
+}
+
+
+input#pepperoni {
+  border: white solid 1px;
+  background-color: rgb(49, 49, 235);
+  float: left;
+  position: absolute;
+  left: 8%;
+  height: 40px;
+  width: 40px;
+}
+
+input#sausage {
+  border: white solid 1px;
+  background-color: rgb(49, 49, 235);
+  float: left;
+  position: absolute;
+  left: 8%;
+  height: 40px;
+  width: 40px;
+}
+
+input#salami {
+  border: white solid 1px;
+  background-color: rgb(49, 49, 235);
+  float: left;
+  position: absolute;
+  left: 8%;
+  height: 40px;
+  width: 40px;
+}
+
+input#anchovies {
+  border: white solid 1px;
+  background-color: rgb(49, 49, 235);
+  float: left;
+  position: absolute;
+  left: 8%;
+  height: 40px;
+  width: 40px;
+}
+
+input#mushrooms {
+  border: white solid 1px;
+  background-color: rgb(49, 49, 235);
+  float: left;
+  position: absolute;
+  left: 8%;
+  height: 40px;
+  width: 40px;
+}
+
+input#peppers {
+  border: white solid 1px;
+  background-color: rgb(49, 49, 235);
+  float: left;
+  position: absolute;
+  left: 8%;
+  height: 40px;
+  width: 40px;
+}
+
+input#olives {
+  border: white solid 1px;
+  background-color: rgb(49, 49, 235);
+  float: left;
+  position: absolute;
+  left: 8%;
+  height: 40px;
+  width: 40px;
+}
+
+input#onions {
+  border: white solid 1px;
+  background-color: rgb(49, 49, 235);
+  float: left;
+  position: absolute;
+  left: 8%;
+  height: 40px;
+  width: 40px;
+}
+
+input#garlic {
+  border: white solid 1px;
+  background-color: rgb(49, 49, 235);
+  float: left;
+  position: absolute;
+  left: 8%;
+  height: 40px;
+  width: 40px;
+}
+
+input#tomatoes {
+  border: white solid 1px;
+  background-color: rgb(49, 49, 235);
+  float: left;
+  position: absolute;
+  left: 8%;
+  height: 40px;
+  width: 40px;
+}
+
+input#exCheese {
+  border: white solid 1px;
+  background-color: rgb(49, 49, 235);
+  float: left;
+  position: absolute;
+  left: 8%;
+  height: 40px;
+  width: 40px;
+}
