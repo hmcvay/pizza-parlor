@@ -41,7 +41,7 @@
   margin-left: 12%;
   margin-right: 12%;
   margin-bottom: 50px;
-  height: 600px;
+  height: 700px;
   width: 75%;
 }
 
@@ -189,12 +189,14 @@
 }
 
 .pickupDelivery {
+  margin-top: 2%;
+  margin-bottom: 2%;
   width: auto;
   font-size: 30pt;
   font-family: "Josefin sans";
   position: absolute;
   float: center;
-  top: 83%;
+  top: 79%;
   left: 32%;
 }
 
@@ -472,6 +474,18 @@ input#exCheese {
   width: 40px;
 }
 
+#priceButton {
+  margin-top: 4%;
+  margin-bottom: 4%;
+  position: relative;
+  left: 5%;
+  background-color: black;
+  font-family: "Ribeye";
+  font-size: 20pt;
+  border-radius: 35%;
+  border: 2px solid #fcd285;
+}
+
 h1.price {
   position: relative;
   left: 20%;
@@ -482,7 +496,7 @@ h1.price {
   margin-bottom: 3%;
 }
 
-#send-order {
+#sendButton {
   margin-top: 4%;
   margin-bottom: 4%;
   position: relative;
@@ -492,4 +506,41 @@ h1.price {
   font-size: 45pt;
   border-radius: 35%;
   border: 2px solid #fcd285;
+}
+
+#final-page {
+  display: none;
+}
+
+#order-sent {
+  float: center;
+  background-image: linear-gradient(rgb(49, 49, 235), rgb(49, 49, 235));
+  border: rgb(32, 153, 32) solid 6px;
+  margin-left: 12%;
+  margin-right: 12%;
+  margin-bottom: 50px;
+  height: 700px;
+  width: 75%;
+}
+
+.order-eta {
+  position: absolute;
+  left: 20%;
+  top: 10%;
+  text-align: center;
+  color: white;
+  font-size: 50pt;
+  text-align: center;
+  font-family: "Ribeye";
+}
+
+#start-again {
+  background-color: black;
+  font-family: "Ribeye";
+  font-size: 20pt;
+  border-radius: 35%;
+  border: 2px solid #fcd285;
+  position: absolute;
+  left: 70%;
+  top: 85%;
 }

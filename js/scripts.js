@@ -2,7 +2,20 @@ $(document).ready(function () {
   $("button#submitButton").click(function (event) {
     event.preventDefault();
     $("#addressBox").hide();
+    $("#final-page").hide();
     $("#buildYourPizza").show();
+  });
+  $("button#sendButton").click(function (event) {
+    event.preventDefault();
+    $("#addressBox").hide();
+    $("#buildYourPizza").hide();
+    $("#final-page").show();
+  });
+  $("button#start-again").click(function (event) {
+    event.preventDefault();
+    $("#final-page").hide();
+    $("#buildYourPizza").hide();
+    $("#addressBox").show();
   });
 });
 
