@@ -198,6 +198,32 @@
   left: 32%;
 }
 
+input[type="checkbox"]{
+  -webkit-appearance: initial;
+  appearance: initial;
+  background: white;
+  width: 40px;
+  height: 40px;
+  border: none;
+  position: relative;
+}
+
+input[type="checkbox"]:checked {
+  background: white;
+}
+
+input[type="checkbox"]:checked:after {
+  content: "X";
+  color: rgb(223, 29, 29);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
 input#pickup {
   width: 30px;
   height: 30px;;
@@ -220,3 +246,86 @@ input#delivery {
   display: none;
 }
 
+#select-size {
+  margin-top: 2%;
+  margin-left: 8%;
+  width: 27%;
+  background-color: rgb(49, 49, 235);
+  font-family: "Josefin sans";
+  color: white;
+  font-size: 28pt;
+}
+
+#selectSize {
+  text-align: center;
+  font-family: "Ribeye";
+  color: rgb(136, 216, 16);
+  font-size: 40pt;
+}
+
+input#small {
+  position: absolute;
+  right: 10%;
+  height: 40px;
+  width: 40px;
+}
+
+input#med {
+  position: absolute;
+  right: 10%;
+  height: 40px;
+  width: 40px;
+}
+
+input#large {
+  position: absolute;
+  right: 10%;
+  height: 40px;
+  width: 40px;
+}
+
+input#xl {
+  position: absolute;
+  right: 10%;
+  height: 40px;
+  width: 40px;
+}
+
+#select-style {
+  margin-top: 2%;
+  margin-left: 8%;
+  margin-bottom: 8%;
+  width: 27%;
+  background-color: rgb(49, 49, 235);
+  font-family: "Josefin sans";
+  color: white;
+  font-size: 28pt;
+}
+
+#selectStyle {
+  text-align: center;
+  font-family: "Ribeye";
+  color: rgb(136, 216, 16);
+  font-size: 40pt;
+}
+
+input#regular {
+  position: absolute;
+  right: 10%;
+  height: 40px;
+  width: 40px;
+}
+
+input#thin {
+  position: absolute;
+  right: 10%;
+  height: 40px;
+  width: 40px;
+}
+
+input#deep {
+  position: absolute;
+  right: 10%;
+  height: 40px;
+  width: 40px;
+}

@@ -8,84 +8,82 @@
   <script src="js/jquery-3.6.0.js"></script>
   <script src="js/scripts.js"></script>
 </head>
+
 <body>
-  <body>
-    <div class="card" id="pizzaNetHeader">
-      <div class="card-body">
-        <img src="img/za.png" id="pizzaSlice">
-        <h1 class="netHead">Pizza.Net!<span class="tm">™</span></h1>
-        <h2 class="netHeadSub">We deliver the best pizza in cyberspace!</h2>
-      </div>
+  <div class="card" id="pizzaNetHeader">
+    <div class="card-body">
+      <img src="img/za.png" id="pizzaSlice">
+      <h1 class="netHead">Pizza.Net!<span class="tm">™</span></h1>
+      <h2 class="netHeadSub">We deliver the best pizza in cyberspace!</h2>
     </div>
-    <div class="card" id="addressBox">
-      <div class="card-body">
-        <h1 class="pleaseEnter">Please enter your name,
-          <br>address and phone:
-        </h1>
-        <div class="deliveryForm">
-          <label for="name">Name: </label>
-          <input id="name" class="form" type="text">
-          <br>
-          <label for="address">Address: </label>
-          <input id="address" class="form" type="text">
-          <br>
-          <label for="city">City: </label>
-          <input id="city" class="form" type="text">
-          <label for="state">State: </label>
-          <input id="state" class="form" type="text">
-          <label for="zip">Zip: </label>
-          <input id="zip" class="form" type="text">
-          <br>
-          <label for="phone">Phone: </label>
-          <input id="phone" class="form" type="text">
-        </div>
+  </div>
+  <div class="card" id="addressBox">
+    <div class="card-body">
+      <h1 class="pleaseEnter">Please enter your name,
+        <br>address and phone:
+      </h1>
+      <div class="deliveryForm">
+        <label for="name">Name: </label>
+        <input id="name" class="form" type="text">
         <br>
-        <div class="pickupDelivery">
-          <label for="pickup">Pickup</label>
-          <input id="pickup" class="custom-checkbox" type="checkbox">
-          <label for="delivery">Delivery</label>
-          <input id="delivery" class="custom-checkbox" type="checkbox">
-          <button id="submitButton" class="btn btn-dark">Done</button>
-        </div>
-        <img src="img/zatransparent.png" id="pizzaSliceDown1">
-        <img src="img/zatransparent.png" id="pizzaSliceDown2">
-        <img src="img/zatransparent.png" id="pizzaSliceDown3">
-        <img src="img/zatransparentFlipped.png" id="pizzaSliceUp1">
-        <img src="img/zatransparentFlipped.png" id="pizzaSliceUp2">
-        <img src="img/zatransparentFlipped.png" id="pizzaSliceUp3">
+        <label for="address">Address: </label>
+        <input id="address" class="form" type="text">
+        <br>
+        <label for="city">City: </label>
+        <input id="city" class="form" type="text">
+        <label for="state">State: </label>
+        <input id="state" class="form" type="text">
+        <label for="zip">Zip: </label>
+        <input id="zip" class="form" type="text">
+        <br>
+        <label for="phone">Phone: </label>
+        <input id="phone" class="form" type="text">
+      </div>
+      <br>
+      <div class="pickupDelivery">
+        <label for="pickup">Pickup</label>
+        <input id="pickup" class="custom-checkbox" type="checkbox">
+        <label for="delivery">Delivery</label>
+        <input id="delivery" class="custom-checkbox" type="checkbox">
+        <button id="submitButton" class="btn btn-dark">Done</button>
+      </div>
+      <img src="img/zatransparent.png" id="pizzaSliceDown1">
+      <img src="img/zatransparent.png" id="pizzaSliceDown2">
+      <img src="img/zatransparent.png" id="pizzaSliceDown3">
+      <img src="img/zatransparentFlipped.png" id="pizzaSliceUp1">
+      <img src="img/zatransparentFlipped.png" id="pizzaSliceUp2">
+      <img src="img/zatransparentFlipped.png" id="pizzaSliceUp3">
+    </div>
+  </div>
+  <div id="buildYourPizza">
+    <div class="card" id="select-size">
+      <div class="card-body">
+        <h1 class="card-title" id="selectSize">Select a Size:</h1>
+        <label for="small">Small (12")</label>
+        <input id="small" class="custom-checkbox" type="checkbox">
+        <br>
+        <label for="med">Medium (16")</label>
+        <input id="med" class="custom-checkbox" type="checkbox">
+        <br>
+        <label for="large">Large (20")</label>
+        <input id="large" class="custom-checkbox" type="checkbox">
+        <br>
+        <label for="xl">X-Large (24")</label>
+        <input id="xl" class="custom-checkbox" type="checkbox">
       </div>
     </div>
-    <div id="buildYourPizza">
-      <div class="card" id="select-size">
-        <div class="card-title" id="size-title">
-          <div class="card-body">
-            <label for="small">Small (12")</label>
-            <input id="small" class="custom-checkbox" type="checkbox">
-            <br>
-            <label for="med">Medium (16")</label>
-            <input id="med" class="custom-checkbox" type="checkbox">
-            <br>
-            <label for="large">Large (20")</label>
-            <input id="large" class="custom-checkbox" type="checkbox">
-            <br>
-            <label for="xl">X-Large (24")</label>
-            <input id="xl" class="custom-checkbox" type="checkbox">
-          </div>
-        </div>
+    <div class="card" id="select-style">
+      <div class="card-body">
+        <h1 class="card-title" id="selectStyle">Select a Style:</h1>
+        <label for="regular">Regular Crust</label>
+        <input id="regular" class="custom-checkbox" type="checkbox">
+        <br>
+        <label for="thin">Thin & Crispy</label>
+        <input id="thin" class="custom-checkbox" type="checkbox">
+        <br>
+        <label for="deep">Deep Dish</label>
+        <input id="deep" class="custom-checkbox" type="checkbox">
       </div>
-      <div class="card" id="select-style">
-        <div class="card-title" id="style-title">
-          <div class="card-body">
-            <label for="regular">Regular Crust</label>
-            <input id="regular" class="custom-checkbox" type="checkbox">
-            <br>
-            <label for="thin">Thin & Crispy</label>
-            <input id="thin" class="custom-checkbox" type="checkbox">
-            <br>
-            <label for="deep">Deep Dish</label>
-            <input id="deep" class="custom-checkbox" type="checkbox">
-          </div>
-        </div>
-      </div>    
     </div>
+  </div>
 </body>
