@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  $("button#test").click(function (event) {
+  $("button#submitButton").click(function (event) {
     event.preventDefault();
     $("#addressBox").hide();
     $(".test").show();

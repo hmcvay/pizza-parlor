@@ -1,7 +1,3 @@
-.test {
-  display: none;
-}
-
 #pizzaNetHeader {
   background-image: linear-gradient(rgb(223, 29, 29), #fcd285);
   text-align: right;
@@ -113,17 +109,17 @@
 .deliveryForm {
   margin-top: 25px;
   margin-bottom: 25px;
-  width: 50%;
+  width: 60%;
   background-color: black;
   color: white;
-  font-size: 16pt;
+  font-size: 19pt;
   font-family: "Josefin sans";
   border: rgb(32, 153, 32) solid 3px;
   padding: 2%;
   float: center;
   position: absolute;
   top: 30%;
-  left: 27%;
+  left: 22%;
 }
 
 #name {
@@ -131,7 +127,7 @@
   border: none;
   background-color: black;
   font-family: monospace;
-  font-size: 22pt;
+  font-size: 25pt;
   color: #fcd285;
   height: auto;
   width: 60%;
@@ -142,7 +138,7 @@
   border: none;
   background-color: black;
   font-family: monospace;
-  font-size: 22pt;
+  font-size: 25pt;
   color: #fcd285;
   height: auto;
   width: 80%;
@@ -153,7 +149,7 @@
   border: none;
   background-color: black;
   font-family: monospace;
-  font-size: 22pt;
+  font-size: 25pt;
   color: #fcd285;
   height: auto;
   width: 30%;
@@ -164,7 +160,7 @@
   border: none;
   background-color: black;
   font-family: monospace;
-  font-size: 22pt;
+  font-size: 25pt;
   color: #fcd285;
   height: auto;
   width: 10%;
@@ -175,7 +171,7 @@
   border: none;
   background-color: black;
   font-family: monospace;
-  font-size: 22pt;
+  font-size: 25pt;
   color: #fcd285;
   height: auto;
   width: 25%;
@@ -186,17 +182,40 @@
   border: none;
   background-color: black;
   font-family: monospace;
-  font-size: 22pt;
+  font-size: 25pt;
   color: #fcd285;
   height: auto;
   width: 55%;
 }
 
 .pickupDelivery {
-  font-size: 20pt;
+  width: auto;
+  font-size: 30pt;
   font-family: "Josefin sans";
   position: absolute;
   float: center;
-  top: 80%;
-  left: 40%;
+  top: 83%;
+  left: 32%;
+}
+
+input#pickup {
+  width: 30px;
+  height: 30px;;
+}
+
+input#delivery {
+  width: 30px;
+  height: 30px;;
+}
+
+#submitButton {
+  background-color: black;
+  font-family: "Ribeye";
+  font-size: 30pt;
+  border-radius: 35%;
+  border: 2px solid #fcd285;
+}
+
+.test {
+  display: none;
 }
