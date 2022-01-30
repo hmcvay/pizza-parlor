@@ -216,6 +216,7 @@ input#delivery {
   border: 2px solid #fcd285;
 }
 
-.test {
+#buildYourPizza {
   display: none;
 }
+

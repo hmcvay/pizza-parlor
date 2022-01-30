@@ -2,7 +2,7 @@ $(document).ready(function () {
   $("button#submitButton").click(function (event) {
     event.preventDefault();
     $("#addressBox").hide();
-    $(".test").show();
+    $("#buildYourPizza").show();
   });
 });
 
