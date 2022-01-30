@@ -330,6 +330,11 @@ input#deep {
   width: 40px;
 }
 
+hr {
+  border: solid white;
+  width: 95%;
+}
+
 #toppings {
   margin-top: 2%;
   margin-left: 8%;
@@ -465,4 +470,26 @@ input#exCheese {
   left: 8%;
   height: 40px;
   width: 40px;
+}
+
+h1.price {
+  position: relative;
+  left: 20%;
+  text-align: left;
+  font-family: "Ribeye";
+  color: white;
+  font-size: 50pt;
+  margin-bottom: 3%;
+}
+
+#send-order {
+  margin-top: 4%;
+  margin-bottom: 4%;
+  position: relative;
+  left: 20%;
+  background-color: black;
+  font-family: "Ribeye";
+  font-size: 45pt;
+  border-radius: 35%;
+  border: 2px solid #fcd285;
 }
