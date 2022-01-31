@@ -88,6 +88,13 @@ Test: "It should return pizza by id."
 
 <br>
 
+Test: "It should return the cart price based off sum of pizza prices."
+<br>Code:
+<br>**const Cart.getTotal();
+<br>Expected Output: Cost.totalPrice = 20
+
+<br>
+
 ### Describe: Pizza()
 
 Test: "It should return a Pizza object with two properties for toppings and size."
