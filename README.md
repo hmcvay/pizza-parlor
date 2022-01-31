@@ -15,9 +15,11 @@
 
 ## Description
 
-_This webpage contains SELECT BOXES(????) in two categories - toppings, and size - with multiple options per category for the user to choose from. After the user makes their choices there will be a submit button to display total price._
+_This webpage contains select boxes in size, style, and toppings categories - with multiple options per category for the user to choose from. After the user makes their choices there will be a submit button to display total price._
 
 _Live site [here](https://hmcvay.github.io/pizza-parlor)
+
+_For further exploration on the site, view [this](https://youtu.be/JUSqX7B5DXs) video
 
 <br>
 
