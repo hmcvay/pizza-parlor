@@ -1,56 +1,65 @@
 // BUSINESS LOGIC
 
-//write cart constructor
+// //write cart constructor
 function Cart() {
   this.pizzasOrdered = {};
   this.currentId = 0;
 }
 
-//write prototype method for adding pizzas to cart
+// //write prototype method for adding pizzas to cart
 Cart.prototype.addPizzas = function(pizza) {
   pizza.id = this.assignId();
   this.pizzasOrdered[pizza.id] = pizza;
 };
 
-//write prototype method for assigning ids to pizzas
+// //write prototype method for assigning ids to pizzas
 Cart.prototype.assignId = function() {
   this.currentId += 1;
   return this.currentId;
 };
 
-//test out adding to Cart//
-let myCart = new Cart ();
-let pizza1 = new Pizza ("pineapple", "large");
-let pizza2 = new Pizza ("pepperoni", "small");
-myCart.addPizzas(pizza1);
-myCart.addPizzas(pizza2);
-console.log(myCart);
+// write ptototype method for finding pizzas by id
+Cart.prototype.findPizza = function(id) {
+  if (this.pizzasOrdered[id] != undefined) {
+    return this.pizzasOrdered[id];
+  };
+
+// //test out adding to Cart//
+// let myCart = new Cart ();
+// let pizza1 = new Pizza ("pineapple", "large");
+// let pizza2 = new Pizza ("pepperoni", "small");
+// myCart.addPizzas(pizza1);
+// myCart.addPizzas(pizza2);
+// console.log(myCart);
 
 // write pizza object constructor
 function Pizza(toppings, size, style) {
   this.toppings = toppings
   this.size = size
   this.style = style
-  //this.basePrice = 7
-  this.price = 0
+  this.price = 7
 }
 
 // write prototype method for increasing price based on size
 
-Pizza.prototype.addSize = function () {
-  let basePrice = 7
-  if (this.size === "family") {
-    basePrice += 9
+Pizza.prototype.sizeCost = function (pizza) {
+  this.price = 7;
+  if (this.size === "xl") {
+    this.price += 9;
   } else if (this.size === "large") {
-    basePrice += 6
+    this.price += 6;
   } else if (this.size === "medium") {
-    basePrice += 3
-  } else {
-    basePrice;
-  }
-  return basePrice = this.price;
+    this.price += 3;
+  } else if (this.size === "small") {
+    this.price += 0;
+  };
+  return this.price;
+  console.log(pizza1);
+  };
+
+//   return basePrice = this.price;
  
-};
+// };
 
 
 //UI LOGIC
