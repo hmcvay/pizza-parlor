@@ -1,24 +1,3 @@
-$(document).ready(function () {
-  $("button#submitButton").click(function (event) {
-    event.preventDefault();
-    $("#addressBox").hide();
-    $("#final-page").hide();
-    $("#buildYourPizza").show();
-  });
-  $("button#sendButton").click(function (event) {
-    event.preventDefault();
-    $("#addressBox").hide();
-    $("#buildYourPizza").hide();
-    $("#final-page").show();
-  });
-  $("button#start-again").click(function (event) {
-    event.preventDefault();
-    $("#final-page").hide();
-    $("#buildYourPizza").hide();
-    $("#addressBox").show();
-  });
-});
-
 // BUSINESS LOGIC
 
 //write cart constructor
@@ -48,9 +27,10 @@ myCart.addPizzas(pizza2);
 console.log(myCart);
 
 // write pizza object constructor
-function Pizza(toppings, size) {
+function Pizza(toppings, size, style) {
   this.toppings = toppings
   this.size = size
+  this.style = style
   //this.basePrice = 7
   this.price = 0
 }
@@ -73,9 +53,27 @@ Pizza.prototype.addSize = function () {
 };
 
 
-//UI
-// $(document).ready(function () {
-// 	$('button#test').click(function () {
-//     $('#test').show();
-//   });
-// });
+//UI LOGIC
+
+$(document).ready(function () {
+  $("button#submitButton").click(function (event) {
+    event.preventDefault();
+    $("#addressBox").hide();
+    $("#final-page").hide();
+    $("#buildYourPizza").show();
+  });
+  $("button#sendButton").click(function (event) {
+    event.preventDefault();
+    $("#addressBox").hide();
+    $("#buildYourPizza").hide();
+    $("#final-page").show();
+    $("input").val("");
+  });
+  $("button#start-again").click(function (event) {
+    event.preventDefault();
+    $("#final-page").hide();
+    $("#buildYourPizza").hide();
+    $("#addressBox").show();
+    $("input").val("");
+  });
+});

@@ -242,6 +242,9 @@ input#delivery {
   font-size: 30pt;
   border-radius: 35%;
   border: 2px solid #fcd285;
+  position: absolute;
+  left: 45%;
+  top: 80%;
 }
 
 #buildYourPizza {

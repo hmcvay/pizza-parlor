@@ -77,6 +77,15 @@ Test: "It should assign id to Pizza objects in Cart constructor."
 <br>**const myCart = new Cart ("pizza1")
 <br>Expected Output: myCart(orderedPizzas: "pizza1", 1)
 
+<br>
+
+Test: "It should return pizza by id."
+<br>Code:
+<br>**findPizza(1);
+<br>Expected Output: Cart.pizza{id:1}
+
+<br>
+
 ### Describe: Pizza()
 
 Test: "It should return a Pizza object with two properties for toppings and size."
