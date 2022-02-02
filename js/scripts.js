@@ -58,8 +58,8 @@ Pizza.prototype.sizeCost = function () {
     this.price += 3;
   } else if (this.size === "small") {
     this.price += 0;
-  };
-  return basePrice = this.price; //why is this not adding to this.price??
+  }
+  return this.price; //why is this not adding to this.price??
   };
 
   Pizza.prototype.toppingCost = function () {
