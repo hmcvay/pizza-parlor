@@ -4,6 +4,7 @@
 function Cart() {
   this.pizzasOrdered = {};
   this.currentId = 0;
+  this.totalPrice = 0;
 }
 
 // // //write prototype method for adding pizzas to cart
@@ -25,6 +26,10 @@ Cart.prototype.findPizza = function(id) {
 };
 }
 
+Cart.prototype.getTotal = function() {
+
+}
+
 // // //test out adding to Cart//
 // // let myCart = new Cart ();
 // // let pizza1 = new Pizza ("pineapple", "large");
@@ -35,7 +40,7 @@ Cart.prototype.findPizza = function(id) {
 
 // // write pizza object constructor
 function Pizza(toppings, size, style) {
-  this.toppings = toppings
+  this.toppings = toppings // [] instead??
   this.size = size
   this.style = style
   this.price = 7
@@ -43,7 +48,7 @@ function Pizza(toppings, size, style) {
 
 // write prototype method for increasing price based on size
 
-Pizza.prototype.sizeCost = function (pizza) {
+Pizza.prototype.sizeCost = function () {
   this.price = 7;
   if (this.size === "xl") {
     this.price += 9;
@@ -54,8 +59,12 @@ Pizza.prototype.sizeCost = function (pizza) {
   } else if (this.size === "small") {
     this.price += 0;
   };
-  return basePrice = this.price;
+  return basePrice = this.price; //why is this not adding to this.price??
   };
+
+  Pizza.prototype.toppingCost = function () {
+    //should this.toppings be actually an empty [], and we run a loop here to assign price for >= 2 toppings??
+  }
 
 
  
