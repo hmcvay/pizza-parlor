@@ -1,10 +1,10 @@
 // // BUSINESS LOGIC
 
 // // write pizza object constructor
-function Pizza(size) {
-  this.size = size
-  this.toppings = toppings
-  this.price = 7
+function Pizza(size, toppings) {
+  this.size = size;
+  this.toppings = toppings;
+  this.price = 7;
 }
 
 // write prototype method for increasing price based on size
@@ -18,14 +18,36 @@ Pizza.prototype.sizeCost = function () {
     this.price += 3;
   } else if (this.size === "small") {
     this.price += 0;
+  };
+  return this.price;
+}
+
+Pizza.prototype.toppingCost = function () {
+  let toppings = [];
+  this.toppings = toppings;
+  if (toppings.includes("ex. cheese")) {
+    this.price +=2;
+  }
+  if (toppings.includes("pepperoni")) {
+    this.price +=1;
   }
   return this.price;
 };
 
+let myPizza = new Pizza("large", ["pepperoni", "ex. cheese"])
+console.log(myPizza.sizeCost());
 
-Pizza.prototype.toppingCost = function () {
-
-}
+//   if (this.toppings.contains("ex. cheese")) {
+//     this.price += 2;
+//   }
+//   if (this.toppings.contains("pepperoni" || "salami" || "sausage" || "anchovies")) {
+//     this.price += 1;
+//   }
+//   if (this.toppings === "mushrooms" || "olives" || "garlic" || "peppers" || "onions" || "tomatoes") {
+//     this.price += 1;
+//   };
+//   return this.price;
+// }; 
 
 
  
