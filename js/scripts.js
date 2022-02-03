@@ -26,14 +26,18 @@ Pizza.prototype.toppingCost = function () {
   if (myPizza.toppings.includes("ex. cheese")) {
     this.price +=2;
   }
-  if (myPizza.toppings.includes("pepperoni")) {
+  if (myPizza.toppings.includes("pepperoni" || "salami" || "sausage" || "anchovies")) {
     this.price +=1;
+  }
+  if (myPizza.toppings.includes("mushrooms" || "olives" || "garlic" || "peppers" || "onions" || "tomatoes")) {
+    this.price += 1;
   }
   return this.price;
 };
 
-let myPizza = new Pizza("large", ["pepperoni", "ex. cheese"])
+let myPizza = new Pizza("large", ["pepperoni", "salami", "olives", "onions", "ex. cheese"])
 console.log(myPizza.sizeCost());
+console.log(myPizza.toppingCost());
 
 //   if (this.toppings.contains("ex. cheese")) {
 //     this.price += 2;
