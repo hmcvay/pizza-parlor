@@ -23,12 +23,10 @@ Pizza.prototype.sizeCost = function () {
 }
 
 Pizza.prototype.toppingCost = function () {
-  let toppings = [];
-  this.toppings = toppings;
-  if (toppings.includes("ex. cheese")) {
+  if (myPizza.toppings.includes("ex. cheese")) {
     this.price +=2;
   }
-  if (toppings.includes("pepperoni")) {
+  if (myPizza.toppings.includes("pepperoni")) {
     this.price +=1;
   }
   return this.price;
