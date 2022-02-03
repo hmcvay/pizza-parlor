@@ -74,6 +74,13 @@ Test: "Price should increase by 3 for each size above small"
 
 <br>
 
+Test: "Price should increase based on amount of toppings."
+<br>Code:
+<br>**const pizza1 = new Pizza (["pineapple", "pepperoni] "medium");**
+<br>Expected Output: 12
+
+<br>
+
 ***
 
 <br>
