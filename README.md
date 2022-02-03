@@ -58,43 +58,6 @@ _For further exploration on the site, view [this](https://youtu.be/JUSqX7B5DXs) 
 
 ## Tests
 
-### Describe: Cart()
-
-Test: "It should return a Cart object that holds all the ordered Pizza objects"
-<br>Code:
-<br>**const myCart = new Cart()
-<br>Expected Output: myCart (orderedPizzas: "undefined")
-
-<br>
-
-Test: "It should add Pizza object to Cart constructor."
-<br>Code:
-<br>**const myCart = new Cart ("pizza1")
-<br>Expected Output: myCart(orderedPizzas: "pizza1")
-
-<br>
-
-Test: "It should assign id to Pizza objects in Cart constructor."
-<br>Code:
-<br>**const myCart = new Cart ("pizza1")
-<br>Expected Output: myCart(orderedPizzas: "pizza1", 1)
-
-<br>
-
-Test: "It should return pizza by id."
-<br>Code:
-<br>**findPizza(1);
-<br>Expected Output: Cart.pizza{id:1}
-
-<br>
-
-Test: "It should return the cart price based off sum of pizza prices."
-<br>Code:
-<br>**const Cart.getTotal();
-<br>Expected Output: Cart.totalPrice = 20
-
-<br>
-
 ### Describe: Pizza()
 
 Test: "It should return a Pizza object with two properties for toppings and size."
@@ -104,7 +67,7 @@ Test: "It should return a Pizza object with two properties for toppings and size
 
 <br>
 
-Test: "Base price should increase by 3 if Medium is selected."
+Test: "Price should increase by 3 for each size above small"
 <br>Code:
 <br>**const pizza1 = new Pizza ("pineapple", "medium");**
 <br>Expected Output: 10
