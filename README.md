@@ -17,7 +17,7 @@
 
 ## Description
 
-_This webpage contains forms to select size, style, and toppings to create a pizza. After the user makes their choices there will be a submit button to display total price._
+_This webpage contains forms to select size, style, and toppings to create a pizza. After the user makes their choices, there will be a submit button to display total price._
 
 _Live site [here](https://hmcvay.github.io/pizza-parlor)
 

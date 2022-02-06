@@ -78,6 +78,22 @@ $(document).ready(function () {
     $("#final-page").hide();
     $("#buildYourPizza").show();
   });
+
+  $("#priceButton").click(function() {
+    let toppingsInput = [];
+    $("input:checkbox[name=topping]:checked").each(function(){
+      toppingsInput.push($(this).val());
+    });
+    let sizeInput = $("input:checkbox[name=size]:checked").val();
+    let styleInput = $("input:checkbox[name=style]:checked").val();
+
+    let pizza1 = new Pizza(sizeInput, toppingsInput, styleInput);
+    pizza1.sizeCost();
+    pizza1.toppingCost();
+    pizza1.styleCost();
+    console.log(pizza1);
+  });
+
   $("button#sendButton").click(function () {
     $("#addressBox").hide();
     $("#buildYourPizza").hide();
