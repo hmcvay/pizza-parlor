@@ -23,15 +23,17 @@ Pizza.prototype.sizeCost = function () {
 }
 
 Pizza.prototype.toppingCost = function () {
-  if (myPizza.toppings.includes("ex. cheese")) {
-    this.price +=2;
-  }
-  if (myPizza.toppings.includes("pepperoni" || "salami" || "sausage" || "anchovies")) {
-    this.price +=1;
-  }
-  if (myPizza.toppings.includes("mushrooms" || "olives" || "garlic" || "peppers" || "onions" || "tomatoes")) {
-    this.price += 1;
-  }
+  myPizza.toppings.forEach(function(topping) {
+    if (topping.includes("ex. cheese")) {
+      this.price +=2;
+    };
+    // if (myPizza.toppings.includes("pepperoni" || "salami" || "sausage" || "anchovies")) {
+    //   this.price +=1;
+    // }
+    // if (myPizza.toppings.includes("mushrooms" || "olives" || "garlic" || "peppers" || "onions" || "tomatoes")) {
+    //   this.price += 1;
+    // };
+  });
   return this.price;
 };
 
