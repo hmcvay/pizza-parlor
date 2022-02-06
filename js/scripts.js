@@ -66,22 +66,14 @@ Pizza.prototype.styleCost = function () {
     this.price += 2;
   };
   return this.price;
-}
-  
-let myPizza = new Pizza("large", ["pepperoni", "salami", "olives", "onions", "ex. cheese"], "deep dish")
-console.log(myPizza.sizeCost());
-console.log(myPizza.toppingCost());
-console.log(myPizza.styleCost());
-
-
- 
-
+} 
 
 //UI LOGIC
 
 $(document).ready(function () {
   $("button#submitButton").click(function (event) {
     event.preventDefault();
+    custName = $('input#name').val();
     $("#addressBox").hide();
     $("#final-page").hide();
     $("#buildYourPizza").show();
@@ -90,12 +82,13 @@ $(document).ready(function () {
     $("#addressBox").hide();
     $("#buildYourPizza").hide();
     $("#final-page").show();
-    $("input").val("");
+    $("#insert-name").append(custName + "!");
   });
   $("button#start-again").click(function () {
     $("#final-page").hide();
     $("#buildYourPizza").hide();
     $("#addressBox").show();
-    $("input").val("");
+    $("#insert-name").empty();
+    $("#deliveryForm").trigger("reset");
   });
 });
