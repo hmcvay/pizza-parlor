@@ -62,7 +62,7 @@ Pizza.prototype.styleCost = function () {
     this.price += 0;
   } else if (this.style === "thin") {
     this.price += 0;
-  } else if (this.style === "deep dish") {
+  } else if (this.style === "deep") {
     this.price += 2;
   };
   return this.price;
