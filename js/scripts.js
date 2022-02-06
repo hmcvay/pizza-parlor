@@ -1,13 +1,10 @@
-// // BUSINESS LOGIC
+// BUSINESS LOGIC
 
-// // write pizza object constructor
 function Pizza(size, toppings) {
   this.size = size;
   this.toppings = toppings;
   this.price = 7;
 }
-
-// write prototype method for increasing price based on size
 
 Pizza.prototype.sizeCost = function () {
   if (this.size === "xl") {
@@ -23,35 +20,45 @@ Pizza.prototype.sizeCost = function () {
 }
 
 Pizza.prototype.toppingCost = function () {
-  myPizza.toppings.forEach(function(topping) {
-    if (topping.includes("ex. cheese")) {
+    if (this.toppings.includes("ex. cheese")) {
       this.price +=2;
     };
-    // if (myPizza.toppings.includes("pepperoni" || "salami" || "sausage" || "anchovies")) {
-    //   this.price +=1;
-    // }
-    // if (myPizza.toppings.includes("mushrooms" || "olives" || "garlic" || "peppers" || "onions" || "tomatoes")) {
-    //   this.price += 1;
-    // };
-  });
-  return this.price;
-};
-
+    if (this.toppings.includes("pepperoni")) {
+      this.price +=1;
+    };
+    if (this.toppings.includes("salami")) {
+      this.price +=1;
+    };
+    if (this.toppings.includes("sausage")) {
+      this.price +=1;
+    };
+    if (this.toppings.includes("anchovies")) {
+      this.price +=1;
+    };
+    if (this.toppings.includes("mushrooms")) {
+      this.price +=1;
+    };
+    if (this.toppings.includes("olives")) {
+      this.price +=1;
+    };
+    if (this.toppings.includes("garlic")) {
+      this.price +=1;
+    };
+    if (this.toppings.includes ("peppers")) {
+      this.price +=1;
+    };
+    if (this.toppings.includes("onions")) {
+      this.price +=1;
+    };
+    if (this.toppings.includes("tomatoes")) {
+      this.price +1;
+    };
+    return this.price;
+  }
+  
 let myPizza = new Pizza("large", ["pepperoni", "salami", "olives", "onions", "ex. cheese"])
 console.log(myPizza.sizeCost());
 console.log(myPizza.toppingCost());
-
-//   if (this.toppings.contains("ex. cheese")) {
-//     this.price += 2;
-//   }
-//   if (this.toppings.contains("pepperoni" || "salami" || "sausage" || "anchovies")) {
-//     this.price += 1;
-//   }
-//   if (this.toppings === "mushrooms" || "olives" || "garlic" || "peppers" || "onions" || "tomatoes") {
-//     this.price += 1;
-//   };
-//   return this.price;
-// }; 
 
 
  
