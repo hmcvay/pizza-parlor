@@ -105,6 +105,9 @@ $(document).ready(function () {
     $("#addressBox").hide();
     $("#buildYourPizza").hide();
     $("#final-page").show();
+    $("#size-form").trigger("reset");
+    $("#style-form").trigger("reset");
+    $("#topping-form").trigger("reset");
     $("#insert-name").append(custName + "!");
   });
   $("button#start-again").click(function () {
