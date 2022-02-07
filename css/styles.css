@@ -363,7 +363,7 @@ hr {
   margin-bottom: 3%;
 }
 
-label.topping-left {
+.col-6{
   position: relative;
   left: 20%;
 }
@@ -372,9 +372,8 @@ label.topping-left {
 input#pepperoni {
   border: white solid 1px;
   background-color: rgb(49, 49, 235);
-  float: left;
-  position: absolute;
-  left: 8%;
+  position: relative;
+  right: 5%;
   height: 40px;
   width: 40px;
 }
@@ -382,9 +381,8 @@ input#pepperoni {
 input#sausage {
   border: white solid 1px;
   background-color: rgb(49, 49, 235);
-  float: left;
-  position: absolute;
-  left: 8%;
+  position: relative;
+  right: 5%;
   height: 40px;
   width: 40px;
 }
@@ -392,9 +390,8 @@ input#sausage {
 input#salami {
   border: white solid 1px;
   background-color: rgb(49, 49, 235);
-  float: left;
-  position: absolute;
-  left: 8%;
+  position: relative;
+  right: 5%;
   height: 40px;
   width: 40px;
 }
@@ -402,9 +399,8 @@ input#salami {
 input#anchovies {
   border: white solid 1px;
   background-color: rgb(49, 49, 235);
-  float: left;
-  position: absolute;
-  left: 8%;
+  position: relative;
+  right: 5%;
   height: 40px;
   width: 40px;
 }
@@ -412,9 +408,8 @@ input#anchovies {
 input#mushrooms {
   border: white solid 1px;
   background-color: rgb(49, 49, 235);
-  float: left;
-  position: absolute;
-  left: 8%;
+  position: relative;
+  right: 5%;
   height: 40px;
   width: 40px;
 }
@@ -422,9 +417,8 @@ input#mushrooms {
 input#peppers {
   border: white solid 1px;
   background-color: rgb(49, 49, 235);
-  float: left;
-  position: absolute;
-  left: 8%;
+  position: relative;
+  right: 5%;
   height: 40px;
   width: 40px;
 }
@@ -432,9 +426,8 @@ input#peppers {
 input#olives {
   border: white solid 1px;
   background-color: rgb(49, 49, 235);
-  float: left;
-  position: absolute;
-  left: 8%;
+  position: relative;
+  right: 5%;
   height: 40px;
   width: 40px;
 }
@@ -442,19 +435,18 @@ input#olives {
 input#onions {
   border: white solid 1px;
   background-color: rgb(49, 49, 235);
-  float: left;
-  position: absolute;
-  left: 8%;
+  position: relative;
+  right: 5%;
   height: 40px;
+  width: 40px;
   width: 40px;
 }
 
 input#garlic {
   border: white solid 1px;
   background-color: rgb(49, 49, 235);
-  float: left;
-  position: absolute;
-  left: 8%;
+  position: relative;
+  right: 5%;
   height: 40px;
   width: 40px;
 }
@@ -462,9 +454,8 @@ input#garlic {
 input#tomatoes {
   border: white solid 1px;
   background-color: rgb(49, 49, 235);
-  float: left;
-  position: absolute;
-  left: 8%;
+  position: relative;
+  right: 5%;
   height: 40px;
   width: 40px;
 }
@@ -472,9 +463,8 @@ input#tomatoes {
 input#exCheese {
   border: white solid 1px;
   background-color: rgb(49, 49, 235);
-  float: left;
-  position: absolute;
-  left: 8%;
+  position: relative;
+  right: 5%;
   height: 40px;
   width: 40px;
 }
@@ -483,7 +473,7 @@ input#exCheese {
   margin-top: 4%;
   margin-bottom: 4%;
   position: relative;
-  left: 5%;
+  left: 100%;
   background-color: black;
   font-family: "Ribeye";
   font-size: 20pt;
