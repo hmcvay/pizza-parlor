@@ -109,6 +109,7 @@ $(document).ready(function () {
     $("#style-form").trigger("reset");
     $("#topping-form").trigger("reset");
     $("#insert-name").append(custName + "!");
+    $("#total").empty();
   });
   $("button#start-again").click(function () {
     $("#final-page").hide();
