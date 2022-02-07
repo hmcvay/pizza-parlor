@@ -270,12 +270,13 @@ input#delivery {
 
 input#small {
   position: absolute;
+  top: 32%;
   right: 10%;
   height: 40px;
   width: 40px;
 }
 
-input#med {
+input#medium {
   position: absolute;
   right: 10%;
   height: 40px;

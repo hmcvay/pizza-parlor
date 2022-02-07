@@ -58,12 +58,12 @@
           <input type="checkbox" id="medium" name="size" value="medium">Medium (16")<br>
           <input type="checkbox" id="large" name="size" value="large">Large (20")<br>
           <input type="checkbox" id="xl" name="size" value="xl">X-Large (24")<br>
-        </form>  
+        </form>
       </div>
     </div>
     <div class="card" id="select-style">
       <div class="card-body">
-        <form id="topping-form">
+        <form id="style-form">
           <label for="selectStyle"><span id="selectStyle">Select a Style:</span></label>
           <input type="checkbox" id="regular" name="style" value="regular">Regular<br>
           <input type="checkbox" id="thin" name="style" value="thin">Thin & Cripsy<br>
@@ -73,57 +73,50 @@
     </div>
     <div class="card" id="toppings">
       <div class="card-body">
-        <h1 class="card-title" id="topping-menu">Toppings Menu</h1>
-        <hr>
-        <div class="row">
-          <div class="col-6">
-            <label for="pepperoni" class="topping-left">Pepperoni</label>
-            <input id="pepperoni" name="topping" class="custom-checkbox" type="checkbox">
+        <form id="topping-form">
+          <label for="selectToppings"><span id="topping-menu">Toppings Menu</span></label>
+          <hr>
+          <div class="row">
+            <div class="col-6">
+              <input type="checkbox" id="pepperoni" name="topping" value="pepperoni">Pepperoni<br>
+            </div>
+            <div class="col-6">
+              <input type="checkbox" id="sausage" name="topping" value="sausage">Sausage<br>
+            </div>
+            <div class="col-6">
+              <input type="checkbox" id="salami" name="topping" value="salami">Salami<br>
+            </div>
+            <div class="col-6">
+              <input type="checkbox" id="anchovies" name="topping" value="anchovies">Anchovies<br>
+            </div>
+            <div class="col-6">
+              <input type="checkbox" id="mushrooms" name="topping" value="mushrooms">Mushrooms<br>
+            </div>
+            <div class="col-6">
+              <input type="checkbox" id="peppers" name="topping" value="peppers">Peppers<br>
+            </div>
+            <div class="col-6">
+              <input type="checkbox" id="olives" name="topping" value="olives">Olives<br>
+            </div>
+            <div class="col-6">
+              <input type="checkbox" id="onions" name="topping" value="onions">Onions<br>
+            </div>
+            <div class="col-6">
+              <input type="checkbox" id="garlic" name="topping" value="garlic">Garlic<br>
+            </div>
+            <div class="col-6">
+              <input type="checkbox" id="tomatoes" name="topping" value="tomatoes">Tomatoes<br>
+            </div>
+            <div class="col-6">
+              <input type="checkbox" id="exCheese" name="topping" value="ex. cheese">Ex. Cheese<br>
+            </div>
           </div>
-          <div class="col-6">
-            <label for="sausage" class="topping-left">Sausage</label>
-            <input id="sausage" name="topping" class="custom-checkbox" type="checkbox">
+        </form>
+            <div class="col-6">
+              <button id="priceButton" class="btn btn-dark">Get Cost</button>
+            </div>
           </div>
-          <div class="col-6">
-            <label for="salami" class="topping-left">Salami</label>
-            <input id="salami" name="topping" class="custom-checkbox" type="checkbox">
-          </div>
-          <div class="col-6">
-            <label for="anchovies" class="topping-left">Anchovies</label>
-            <input id="anchovies" name="topping" class="custom-checkbox" type="checkbox">
-          </div>
-          <div class="col-6">
-            <label for="mushrooms" class="topping-left">Mushrooms</label>
-            <input id="mushrooms" name="topping" class="custom-checkbox" type="checkbox">
-          </div>
-          <div class="col-6">
-            <label for="peppers" class="topping-left">Peppers</label>
-            <input id="peppers" name="topping" class="custom-checkbox" type="checkbox">
-          </div>
-          <div class="col-6">
-            <label for="olives" class="topping-left">Olives</label>
-            <input id="olives" name="topping" class="custom-checkbox" type="checkbox">
-          </div>
-          <div class="col-6">
-            <label for="onions" class="topping-left">Onions</label>
-            <input id="onions" name="topping" class="custom-checkbox" type="checkbox">
-          </div>
-          <div class="col-6">
-            <label for="garlic" class="topping-left">Garlic</label>
-            <input id="garlic" name="topping" class="custom-checkbox" type="checkbox">
-          </div>
-          <div class="col-6">
-            <label for="tomatoes" class="topping-left">Tomatoes</label>
-            <input id="tomatoes" name="topping" class="custom-checkbox" type="checkbox">
-          </div>
-          <div class="col-6">
-            <label for="exCheese" class="topping-left">Ex. Cheese</label>
-            <input id="exCheese" name="topping" class="custom-checkbox" type="checkbox">
-          </div>
-          <div class="col-6">
-            <button id="priceButton" class="btn btn-dark">Get Cost</button>
-          </div>
-        </div>
+        </form>
         <hr>
         <h1 class="price">Price:</h1>
         <button id="sendButton" class="btn btn-dark">Send Order Now!</button>
@@ -133,18 +126,19 @@
   <div id="final-page">
     <div class="card" id="order-sent">
       <div class="card-body">
-      <img src="img/zatransparent.png" id="pizzaSliceDown1">
-      <img src="img/zatransparent.png" id="pizzaSliceDown2">
-      <img src="img/zatransparent.png" id="pizzaSliceDown3">
-      <img src="img/zatransparentFlipped.png" id="pizzaSliceUp1">
-      <img src="img/zatransparentFlipped.png" id="pizzaSliceUp2">
-      <img src="img/zatransparentFlipped.png" id="pizzaSliceUp3">
+        <img src="img/zatransparent.png" id="pizzaSliceDown1">
+        <img src="img/zatransparent.png" id="pizzaSliceDown2">
+        <img src="img/zatransparent.png" id="pizzaSliceDown3">
+        <img src="img/zatransparentFlipped.png" id="pizzaSliceUp1">
+        <img src="img/zatransparentFlipped.png" id="pizzaSliceUp2">
+        <img src="img/zatransparentFlipped.png" id="pizzaSliceUp3">
         <p class="order-eta"> Your pizza will arrive
-          <br>in 45 minutes. 
-          <br>Gratuity not included. 
-          <br>Thank you for your order, <span id="insert-name"></span></p>
+          <br>in 45 minutes.
+          <br>Gratuity not included.
+          <br>Thank you for your order, <span id="insert-name"></span>
+        </p>
         <button id="start-again" class="btn btn-dark">Order Again!</button>
-      </div>  
+      </div>
     </div>
   </div>
 </body>
