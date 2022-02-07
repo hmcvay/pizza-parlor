@@ -71,6 +71,12 @@ Pizza.prototype.styleCost = function () {
 //UI LOGIC
 
 $(document).ready(function () {
+  $(".size").on("change", function() {
+    $(".size").not(this).prop("checked", false);
+  });
+  $(".style").on("change", function () {
+    $(".style").not(this).prop("checked", false);
+  });
   $("button#submitButton").click(function (event) {
     event.preventDefault();
     custName = $('input#name').val();
@@ -91,7 +97,8 @@ $(document).ready(function () {
     pizza1.sizeCost();
     pizza1.toppingCost();
     pizza1.styleCost();
-    console.log(pizza1);
+    $("#total").empty();
+    $("#total").append("$" + pizza1.price);
   });
 
   $("button#sendButton").click(function () {
@@ -106,5 +113,6 @@ $(document).ready(function () {
     $("#addressBox").show();
     $("#insert-name").empty();
     $("#deliveryForm").trigger("reset");
+    $("")
   });
 });
