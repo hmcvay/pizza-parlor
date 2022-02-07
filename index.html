@@ -112,13 +112,11 @@
             </div>
           </div>
         </form>
-            <div class="col-6">
-              <button id="priceButton" class="btn btn-dark">Get Cost</button>
-            </div>
-          </div>
-        </form>
+        <div class="col-6">
+          <button id="priceButton" class="btn btn-dark">Get Cost</button>
+        </div>
         <hr>
-        <h1 class="price">Price:</h1>
+        <h1 class="price">Price: <span id="total"></span></h1>
         <button id="sendButton" class="btn btn-dark">Send Order Now!</button>
       </div>
     </div>
@@ -135,7 +133,7 @@
         <p class="order-eta"> Your pizza will arrive
           <br>in 45 minutes.
           <br>Gratuity not included.
-          <br>Thank you for your order, <span id="insert-name"></span>
+          <br>Thank you for your order,<br> <span id="insert-name"></span>
         </p>
         <button id="start-again" class="btn btn-dark">Order Again!</button>
       </div>

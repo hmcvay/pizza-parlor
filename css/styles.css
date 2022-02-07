@@ -520,12 +520,11 @@ h1.price {
 
 .order-eta {
   position: absolute;
-  left: 20%;
+  left: 17%;
   top: 10%;
   text-align: center;
   color: white;
   font-size: 50pt;
-  text-align: center;
   font-family: "Ribeye";
 }
 
