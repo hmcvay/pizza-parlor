@@ -52,18 +52,13 @@
   <div id="buildYourPizza">
     <div class="card" id="select-size">
       <div class="card-body">
-        <h1 class="card-title" id="selectSize">Select a Size:</h1>
-        <label for="small">Small (12")</label>
-        <input id="small" name="size" class="custom-checkbox" type="checkbox">
-        <br>
-        <label for="med">Medium (16")</label>
-        <input id="med" name="size" class="custom-checkbox" type="checkbox">
-        <br>
-        <label for="large">Large (20")</label>
-        <input id="large" name="size" class="custom-checkbox" type="checkbox">
-        <br>
-        <label for="xl">X-Large (24")</label>
-        <input id="xl" name="size" class="custom-checkbox" type="checkbox">
+        <form id="size-form">
+          <label for="selectSize"><span id="selectSize">Select a Size:</span></label>
+          <input type="checkbox" id="small" name="size" value="small">Small (12")<br>
+          <input type="checkbox" id="medium" name="size" value="medium">Medium (16")<br>
+          <input type="checkbox" id="large" name="size" value="large">Large (20")<br>
+          <input type="checkbox" id="xl" name="size" value="xl">X-Large (24")<br>
+        </form>  
       </div>
     </div>
     <div class="card" id="select-style">
@@ -76,19 +71,6 @@
         </form>
       </div>
     </div>
-    <!-- <div class="card" id="select-style">
-      <div class="card-body">
-        <h1 class="card-title" id="selectStyle">Select a Style:</h1>
-        <label for="regular">Regular Crust</label>
-        <input id="regular" name="style" class="custom-checkbox" type="checkbox">
-        <br>
-        <label for="thin">Thin & Crispy</label>
-        <input id="thin" name="style" class="custom-checkbox" type="checkbox">
-        <br>
-        <label for="deep">Deep Dish</label>
-        <input id="deep" name="style" class="custom-checkbox" type="checkbox">
-      </div>
-    </div> -->
     <div class="card" id="toppings">
       <div class="card-body">
         <h1 class="card-title" id="topping-menu">Toppings Menu</h1>
