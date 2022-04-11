@@ -1,14 +1,16 @@
 # _Pizza Parlor_
 
+#### By Hayley McVay
+
+<br>
+
+<img src="readMeImage.png" width="auto">
+
 ***
 
 ### A simple webpage designed for a pizza company, "Pizza.net", where a user can choose one or more individual toppings, a size, and style, to order a pizza and see the final cost.
 
 ### Please view the first 20 seconds of [this](https://youtu.be/JUSqX7B5DXs) video before using this webpage.
-
-<br>
-
-#### By Hayley McVay <https://github.com/hmcvay>
 
 <br>
 
@@ -19,7 +21,7 @@
 
 _This webpage contains forms to select size, style, and toppings to create a pizza. After the user makes their choices, there will be a submit button to display total price._
 
-_Live site [here](https://hmcvay.github.io/pizza-parlor)_
+_Live site [here](https://hmcvay.github.io/pizza-parlor)!_
 
 <br>
 
